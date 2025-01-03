@@ -10,10 +10,10 @@ export interface UserProps {
     name: string;
     username: string;
     email: string;
-    address: AddressProps;
-    phone: string;
-    website: string;
-    company: CompanyProps;
+    address?: AddressProps;
+    phone?: string;
+    website?: string;
+    company?: CompanyProps;
   }
 
 export interface AddressProps {
@@ -33,4 +33,16 @@ export interface CompanyProps {
     name: string;
     catchPhrase: string;
     bs: string;
+  }
+
+  export interface PostData {
+    userId: number;
+    id?: number;
+    title: string;
+    body: string;
+  }
+  
+  export interface PostModalProps {
+    onClose: () => void;
+    onSubmit: (post: PostData) => void;
   }
