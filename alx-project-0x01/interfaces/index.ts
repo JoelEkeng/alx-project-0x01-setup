@@ -46,3 +46,20 @@ export interface CompanyProps {
     onClose: () => void;
     onSubmit: (post: PostData) => void;
   }
+
+export interface UserData {
+    id: number;
+    name: string;
+    username: string;
+    email: string;
+    address: AddressProps;
+    phone: string;
+    website: string;
+    company: CompanyProps;
+}
+
+
+export interface UserModalProps {
+    onClose: () => void;
+    onSubmit: (user: UserData) => void;
+  }
