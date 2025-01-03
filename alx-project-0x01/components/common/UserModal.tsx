@@ -1,4 +1,4 @@
-import { UserData, UserModalProps } from '@/interfaces';
+import { UserData, UserModalProps} from '@/interfaces';
 import React, { useState } from 'react';
 
 
