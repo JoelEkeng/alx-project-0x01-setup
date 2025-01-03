@@ -10,12 +10,5 @@ const Home: React.FC = () => {
 
 
 
- public/assets/images
- components/common/Button.tsx
- components/common/PostCard.tsx
- components/layout/Header.tsx
-  components/layout/Footer.tsx
- pages/posts/index.tsx
- pages/users/index.ts`
 
  export default Home;
